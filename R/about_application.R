@@ -74,11 +74,6 @@ about_application <- function() {
                tags$b("Author[s]")),
         column(
           width = 10,
-          "Made with",
-          HTML("&#x2764;&#xFE0F;"),
-          "+",
-          HTML("\u2615\uFE0F"),
-          "by",
           tags$a(href = 'https://twitter.com/apo_orv/', 'Apoorv')
         )
       ),
@@ -100,10 +95,7 @@ about_application <- function() {
         tags$p(
           "This package [and a lot of important research] was not possible without the work of",
           tags$a(href = "https://indiankanoon.org", "IndianKanoon."),
-          " We thank ",
-          tags$a(href = "https://twitter.com/sushantsinha", "Sushant Sinha"),
-          "and team for all their work on this irreplaceable platform."
-          
+          "We appreciate all their efforts to build, maintain and sustain this platform."
         )
       )),
       tags$br(),
@@ -111,17 +103,17 @@ about_application <- function() {
       fluidRow(column(
         width = 2,
         tags$a(
-          href = 'http://creativecommons.org/licenses/by-nc/4.0/',
-          tags$img(src = "https://i.creativecommons.org/l/by-nc/4.0/88x31.png", style = "border-width:0;width: 100px; float:right; margin-right: 10px;")
+          href = 'https://www.gnu.org/licenses/gpl-3.0.html',
+          tags$img(src = "https://www.gnu.org/graphics/gplv3-88x31.png", style = "border-width:0;width: 100px; float:right; margin-right: 10px;")
         )
       ),
       column(
         width = 10,
         tags$p(
-          "This work is licensed under a",
+          "This work is licensed under",
           tags$a(
-            href = 'http://creativecommons.org/licenses/by-nc/4.0/',
-            "Creative Commons Attribution-NonCommercial 4.0 International License"
+            href = 'https://www.gnu.org/licenses/gpl-3.0',
+            "The GNU General Public License v3.0"
           )
         )
       ))
