@@ -14,6 +14,6 @@ This tools stands on top of some amazing work done by package developers, and we
 * shinycssloaders
 * rvest
 
-This package [and a lot of important research] was not possible without [IndianKanoon](indiankanoon.org/). We thank them for their sustained efforts in building and maintaining this important platform. 
+This package [and a lot of important research] was not possible without [IndianKanoon](indiankanoon.org/). We appreciate all their efforts to build, maintain and sustain this platform. 
 
 This work is licensed under [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
