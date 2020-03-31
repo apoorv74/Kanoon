@@ -1,0 +1,77 @@
+
+.titre {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:28px;
+  margin-top: 5px; margin-bottom: 0px;
+  text-align: left;
+  font-weight: normal;
+  color: #222;
+}
+
+.soustitre {
+  font-family: "Lucida Grande", Tahoma;
+  font-size: 14px;
+  font-weight: lighter;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: #666666;
+  margin-top: 10px;
+  text-align: left;
+  letter-spacing: 0.3em;
+}
+
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #112446;
+}
+
+.main-icon {
+  position: absolute; 
+  top: -35px; 
+  right: 15px; 
+  color: #F2F2F2; 
+  font-size: 1100%; 
+  
+}
+
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: #112446;
+}
+
+
+.btn-dreamrs {
+  background-color: #112446;
+  color: #fff;
+  border-color: #112446;
+}
+
+.btn-dreamrs:hover {
+  color: #fff;
+}
+
+.btn-dreamrs.active {
+  color: #112446;
+  background-color: #fff;
+  border-color: #112446;
+}
+
+
+/* Charts */
+
+.plot-spin {
+  background: #FFFFFF;
+}
+
+.container
+{
+  position: absolute;
+  top: 15px;
+  width:90%;
+  max-width: 1400px;
+  min-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
